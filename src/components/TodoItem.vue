@@ -3,6 +3,7 @@
 		<input
 			type="checkbox" class="toggle"
 			:value="todo.completed"
+			:checked="todo.completed"
 			@change="onInput">
 		<label>{{todo.title}}</label>
 		<button
